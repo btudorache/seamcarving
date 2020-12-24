@@ -20,6 +20,6 @@ Image before applying Seam Carving:
 
 ![before](https://github.com/btudorache/seamcarving/blob/master/test/test2.png)
 
-Image after removing 250x250 pixels:
+Image after removing 250 seams vertically and 250 seams horizontally:
 
 ![after](https://github.com/btudorache/seamcarving/blob/master/test/test2_out.png)
