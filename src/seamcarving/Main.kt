@@ -12,6 +12,7 @@ fun main(args: Array<String>) {
     var outputFile = ""
     var inputWidth: Int = -1
     var inputHeight: Int = -1
+
     for (i in args.indices) {
         if (args[i] == "-in") {
             inputFile = args[i + 1]
@@ -27,6 +28,7 @@ fun main(args: Array<String>) {
             continue
         }
     }
+
     var bufferedImage = ImageIO.read(File(inputFile))
     
     repeat(inputWidth) {
@@ -41,8 +43,7 @@ fun main(args: Array<String>) {
 
 fun iterateOnce(bufferedImage: BufferedImage, isHorizontal: Boolean = false): BufferedImage {
     val energyValues = getEnergyMatrix(bufferedImage)
-    val pathValues: Array<Array<Double>>
-    pathValues = if (isHorizontal) {
+    val pathValues = if (isHorizontal) {
         getPathsMatrix(transposeMatrix(energyValues))
     } else {
         getPathsMatrix(energyValues)
