@@ -18,8 +18,8 @@ Compile and run with the following flags:
 
 Image before applying Seam Carving:
 
-![before](https://github.com/btudorache/seamcarving/blob/master/test/test.png)
+![before](https://github.com/btudorache/seamcarving/blob/master/test/test2.png)
 
 Image after removing 250x250 pixels:
 
-![after](https://github.com/btudorache/seamcarving/blob/master/test/test_out.png)
+![after](https://github.com/btudorache/seamcarving/blob/master/test/test2_out.png)

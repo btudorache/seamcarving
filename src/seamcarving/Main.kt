@@ -27,7 +27,6 @@ fun main(args: Array<String>) {
             continue
         }
     }
-
     var bufferedImage = ImageIO.read(File(inputFile))
     
     repeat(inputWidth) {
