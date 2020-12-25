@@ -1,6 +1,6 @@
 # Seam Carving
 
-Implementation of the Seam Carving Algorithm in Kotlin. You can learn more about it on the [wiki page](https://en.wikipedia.org/wiki/Seam_carving).
+**Seam carving** is an algorithm for content-aware image resizing. It functions by establishing a number of seams (paths of least importance) in an image and automatically removes seams to reduce image size or inserts seams to extend it. You can learn more about it on the [wiki page](https://en.wikipedia.org/wiki/Seam_carving).
 
 ## Usage
 
